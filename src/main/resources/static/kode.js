@@ -120,7 +120,7 @@ function addBilett(film, antall, fNavn, eNavn, tlf, epost){
     let utString = " "
     for(let i=0; i<liste.length; i++){
         utString +=  liste[i].movie + " "+liste[i].amount + " "+liste[i].firstname
-                    +" "+ liste[i].surname + " "+liste[i].telephone +" "+liste[i].email +" ";
+                    +" "+ liste[i].surname + " "+liste[i].telephone +" "+liste[i].email +"\n";
 
     }
 
